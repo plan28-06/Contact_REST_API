@@ -35,5 +35,4 @@ that listens to requests from PORT */
     })
     .catch((error) => {
         console.log("Connection failed Error:", error);
-        process.exit(0);
     });

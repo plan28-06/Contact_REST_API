@@ -11,7 +11,7 @@ const appRouter = Router(); // Creates Router instance
 
 // Routes requests to different functions
 appRouter.get("/", getAllContacts);
-appRouter.get("/:id", getContact);
+appRouter.get("/:id", getContact); // :id ======= req.params.id
 appRouter.post("/create", createContact);
 appRouter.put("/update/:id", updateContact);
 appRouter.delete("/delete/:id", deleteContact);
