@@ -5,7 +5,7 @@ import {
     createContact,
     updateContact,
     deleteContact,
-} from "../handler/handler";
+} from "../handler/handler.js";
 
 const appRouter = Router(); // Creates Router instance
 
