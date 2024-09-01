@@ -10,6 +10,8 @@ This API only runs locally for now 😭😭😭, I plan to host the database and
 
 Steps to run the API given below.
 
+***Note: Please excuse the large amount of comments in my code, they are for review (when I comeback to this later).***
+
 ## API Endpoints
 <p align="center">
   <img src="./screenshots/endpoints.png" alt="endpoints">
